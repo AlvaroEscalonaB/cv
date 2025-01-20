@@ -1,0 +1,25 @@
+# Ignore build outputs
+dist/
+build/
+
+# Ignore environment files
+.env
+.env.*
+
+# Common files
+pnpm-lock.yaml
+prettier.config.cjs
+package.json
+.prettierrc
+.eslintrc
+*.config.js
+*.config.cjs
+*.config.mjs
+*.md
+
+# Ignore IDE files
+.vscode/
+.idea/
+# Ignore system files
+.DS_Store
+Thumbs.db
