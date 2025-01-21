@@ -1,12 +1,8 @@
-# Welcome to React Router!
-
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+# Welcome to my CV project
 
 ## Features
 
-- 🚀 Server-side rendering
+- 🚀 SPA (Single Page Application) and CSR (Client Side Rendering)
 - ⚡️ Hot Module Replacement (HMR)
 - 📦 Asset bundling and optimization
 - 🔄 Data loading and mutations
@@ -93,8 +89,4 @@ Make sure to deploy the output of `npm run build`
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+This is on [Tailwind CSS](https://tailwindcss.com/) for styling, so try to avoid the `.css` whenever possible, when use that to avoid repetition, use the `@apply` sentence on a `.css`. And if a property is not supported in tailwind then you're free to use `.css` but be careful to do not use a reserved word on top of tailwind.
