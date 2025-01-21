@@ -18,5 +18,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react()],
-  base: "/",
+  base: "/cv/",
 }))
