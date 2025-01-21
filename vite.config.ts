@@ -1,9 +1,8 @@
-import { reactRouter } from "@react-router/dev/vite"
+import react from "@vitejs/plugin-react"
 import autoprefixer from "autoprefixer"
 import path from "path"
 import tailwindcss from "tailwindcss"
 import { defineConfig } from "vite"
-import tsconfigPaths from "vite-tsconfig-paths"
 
 export default defineConfig(({ mode }) => ({
   resolve: {
@@ -18,6 +17,6 @@ export default defineConfig(({ mode }) => ({
       plugins: [tailwindcss, autoprefixer],
     },
   },
-  plugins: [reactRouter(), tsconfigPaths()],
-  base: "/cv/",
+  plugins: [react()],
+  base: "/",
 }))
