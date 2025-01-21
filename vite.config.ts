@@ -5,7 +5,7 @@ import tailwindcss from "tailwindcss"
 import { defineConfig } from "vite"
 import tsconfigPaths from "vite-tsconfig-paths"
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
@@ -19,5 +19,5 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
-  // base: "/cv",
-})
+  base: mode === "production" ? "/cv/" : "/",
+}))
