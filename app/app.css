@@ -71,4 +71,8 @@ body {
   * {
     @apply border-border;
   }
+
+  .left-min-space {
+    @apply min-w-16 sm:min-w-24 lg:min-w-32 xl:min-w-40;
+  }
 }
