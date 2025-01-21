@@ -1,13 +1,10 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import type { Route } from "./+types/home"
+import CurriculumVitae from "src/layouts/curriculum_vitae"
 
 export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+  return [{ title: "CV Álvaro Escalona" }, { name: "description", content: "CV Álvaro Escalona" }]
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <CurriculumVitae />
 }
