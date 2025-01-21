@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
-  base: mode === "production" ? "/cv/" : "/",
+  base: "/cv/",
 }))
