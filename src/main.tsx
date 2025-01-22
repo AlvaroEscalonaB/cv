@@ -12,7 +12,7 @@ createRoot(root!).render(
 )
 
 export default function Router() {
-  const currentEnv = import.meta.env.DEV ? "/" : "/ss_frontend/"
+  const currentEnv = import.meta.env.DEV ? "/" : "/cv/"
   return (
     <BrowserRouter basename={currentEnv}>
       <Routes>
