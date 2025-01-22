@@ -7,8 +7,8 @@ export default function LaboralExperience() {
       <SingleExperience
         position="Ingeniería Civil en Industrias,"
         jobPlace="Pontificia Universidad Católica de Chile"
-        dateEnd="2017"
-        dateStart="2022"
+        dateEnd="2022"
+        dateStart="2017"
         experiences={[]}
         typeShow="horizontalRange"
       />

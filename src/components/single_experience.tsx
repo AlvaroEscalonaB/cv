@@ -24,8 +24,8 @@ export default function SingleExperience({
     <article className="flex flex-row gap-4 py-2">
       {
         {
-          verticalRange: <VerticalRangeDate dateEnd={dateEnd} dateStart={dateStart} />,
-          horizontalRange: <HorizontalRangeDate dateEnd={dateEnd} dateStart={dateStart} />,
+          verticalRange: <VerticalRangeDate dateStart={dateStart} dateEnd={dateEnd} />,
+          horizontalRange: <HorizontalRangeDate dateStart={dateStart} dateEnd={dateEnd} />,
         }[typeShow]
       }
       <div className="flex flex-col">
