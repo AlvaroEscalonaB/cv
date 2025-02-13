@@ -1,12 +1,13 @@
 import HorizontalRangeDate from "./horizontal_range_date"
 import VerticalRangeDate from "./vertical_range_date"
+import type { ReactNode } from "react"
 
 type DateRangeTypeShow = "verticalRange" | "horizontalRange"
 
 interface SingleExperienceProps {
   position: string
   jobPlace: string
-  experiences: string[]
+  experiences: ReactNode[]
   dateStart: string
   dateEnd: string
   typeShow?: DateRangeTypeShow
@@ -34,7 +35,7 @@ export default function SingleExperience({
           {jobPlace}
         </div>
         <div>
-          <ul className="list-inside list-disc">
+          <ul className="list-disc pl-4">
             {experiences.map((experience, index) => (
               <li key={index}>{experience}</li>
             ))}
