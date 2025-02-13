@@ -5,11 +5,11 @@ interface TitleProps {
 }
 
 const variantMapper = {
-  h1: "text-4xl",
-  h2: "text-3xl",
-  h3: "text-2xl",
-  h4: "text-xl",
-  h5: "text-lg",
+  h1: "text-3xl md:text-4xl",
+  h2: "text-xl sm:text-2xl md:text-3xl",
+  h3: "text-lg sm:text-xl sm:text-2xl",
+  h4: "text-base sm:text-lg md:text-xl",
+  h5: "text-base sm:text-lg",
 } as const
 
 export default function Title({ title, className, variant = "h1" }: TitleProps) {
