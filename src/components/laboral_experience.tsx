@@ -6,23 +6,17 @@ export default function LaboralExperience() {
     <SectionWrapper label="Antecedentes laborales">
       <SingleExperience
         position="Software Developer"
-        jobPlace="Externo de Global Conexus para Minera Los Pelambres"
+        jobPlace="Externo para Minera Los Pelambres"
         dateStart="Nov 2024"
         dateEnd="Actualidad"
         experiences={[
-          "Desarrollo de backend en FastAPI para cálculos de KPIs sobre datos ingestados en SQL Server",
-          "Desarrollo de aplicación de reportería con librerías de Plotly-Dash",
-          "Manejo de Azure-Databricks para análisis y extracción de datos",
+          "Desarrollo de aplicaciones de reportería con librerías de Plotly-Dash como frontend y backend en FastAPI",
           "Uso de servicios de Azure como CosmosDB, AppServices y DevOps",
-        ]}
-      />
-      <SingleExperience
-        position="Memorista"
-        jobPlace="en Minera Los Pelambres"
-        dateStart="Mar 2024"
-        dateEnd="Oct 2024"
-        experiences={[
-          "Aplicaciones de process mining en proceso de Carguío y Transporte de camiones extractores, junto con actividad de equipos de carguío",
+          "Manejo de Azure-Databricks para análisis y extracción de datos",
+          <span>
+            Aplicaciones de <span className="italic">process mining</span> en proceso de Carguío y Transporte de equipos
+            CAEX
+          </span>,
         ]}
       />
       <SingleExperience
@@ -32,8 +26,8 @@ export default function LaboralExperience() {
         dateEnd="Feb 2024"
         experiences={[
           "Migración de monolito de rails a aplicación desacoplada de Rails 7 API con react-typescript con deploy con infraestructura como código",
+          "Prueba de concepto de AWS Lambdas en Rust con infraestructura como código con Pulumi",
           "Rediseño de la plataforma migrada en Figma",
-          "Proof of Concept de AWS Lambdas con Rust",
         ]}
       />
       <SingleExperience

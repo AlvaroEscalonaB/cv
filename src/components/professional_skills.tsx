@@ -36,6 +36,12 @@ export default function ProfessionalSkills() {
       </article>
       <article className="flex flex-row pt-4">
         <div className="left-min-space flex justify-end">
+          <span className="font-bold text-sm">Software</span>
+        </div>
+        <div className="flex-1 flex flex-col gap-1 pl-4">Figma para diseño de páginas web</div>
+      </article>
+      <article className="flex flex-row pt-4">
+        <div className="left-min-space flex justify-end">
           <span className="font-bold text-sm">Idiomas</span>
         </div>
         <div className="flex-1 flex flex-col gap-1 pl-4">Inglés nivel B1</div>
